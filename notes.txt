@@ -1,0 +1,7 @@
+npm i -g typescript
+tsc -v
+tsc --init
+tsc -w
+
+//React app with typescript
+npx create-react-app . --template typescript
