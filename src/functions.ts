@@ -1,10 +1,14 @@
-// Function 1
+/*********************************************
+ * Function 1
+ ********************************************/
 const getTotal1 = (pNumber1: number, pNumber2: number): string => {
     let total = pNumber1 + pNumber2;
     return 'Total : ' + total;
 };
 
-// Function 2
+/*********************************************
+ * Function 2
+ ********************************************/
 const getTotal2 = (
     pNumber1: number,
     pNumber2: number = 10,
@@ -18,7 +22,9 @@ const getTotal2 = (
     return 'Total : ' + total;
 };
 
-// Function 3
+/*********************************************
+ * Function 3
+ ********************************************/
 const getTotal3 = (...numberList: number[]): string => {
     let total: number = 0;
     for (let index = 0; index < numberList.length; index++) {
@@ -27,7 +33,9 @@ const getTotal3 = (...numberList: number[]): string => {
     return 'Total : ' + total;
 };
 
-// Function 4
+/*********************************************
+ * Function 4
+ ********************************************/
 const writeConsole = (pMessage: string | number): void => {
     console.log(pMessage);
 };
